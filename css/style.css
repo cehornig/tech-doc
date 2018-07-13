@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Hind Siliguri", sans-serif;
+}
+
+nav {
+    background: #57756c;
+}
+
+.nav-link {
+    padding: 19px;
+    text-align: center;
+    color: white;
+    border-top: 2px solid;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    border-color: white;
+    color: lightgray;
+}
+
+.nav-header {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 20px;
+    background: #57756c;
+}
+
+.inner-nav-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 10px;
+}
+
+.main-header {
+    display: block;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.made-for {
+    display: block;
+    margin: auto;
+    
+    text-align: center;
+    font-style: italic;
+}
+
+h2, h3 {
+    display: block;
+    text-align: center;
+    padding: 20px 10px;
+    font-weight: bold;
+}
+
+ol, ul {
+    padding: 10px 0px 10px 40px;
+}
+
+p {
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+code {
+    display: block;
+    white-space: pre-line;
+    height: 100%;
+    width: auto;
+    background: #9db3af;
+    padding: 0px 10px;
+    margin: 0px 20px;
+}
+
+/* The white-space property makes the code wrap onto new lines. */
+
+img {
+    display: block;
+    max-width: 50%;
+    margin: auto;
+}
+
+dt {
+    font-weight: bold;
+    padding-left: 30px
+}
+
+dd, dl {
+    padding-left: 40px;
+}
+
+a{
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.blue-code {
+    color: darkslateblue;
+}
+
+.red-code {
+    color: darkred;
+}
+
+.gray-code {
+    color: darkslategrey;
+}
+
+.green-code {
+    color: darkolivegreen;
+}
+
+@media (min-width: 485px) {
+    main {
+        margin-left: 180px;
+}
+    
+    nav {
+        position: fixed;
+        height: 100%;
+        width: 180px;
+        overflow-y: scroll;
+        background: #57756c;
+    }
+    
+    .inner-nav-wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+}
+    
+    .nav-header {
+       position: fixed;
+       float: left;
+       padding: 20px 40px 40px 40px;
+       font-size: 20px;
+}
+    
+    .nav-link {
+        margin: 0px 30px;
+        padding: 40px 29px 40px 20px;
+        border-top: 2px solid;
+        text-decoration: none;
+}
+    
+    p {
+        margin: 10px 0px;
+        box-sizing: border-box;
+}
+    
+    ul {
+        padding: 10px 0px 10px 40px;
+        box-sizing: border-box;
+}
+}
+
+/* To make the nav bar scroll, you need the overflow-y property set to scroll, plus display: block and a defined height. */
