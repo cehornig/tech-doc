@@ -11,6 +11,7 @@
         <nav id="navbar">
             <header class="nav-header">Description</header>
             <div class="inner-nav-wrapper">
+                <a class="nav-link" href="#Reference">Reference</a>
                 <a class="nav-link" href="#Introduction_to_HTML_overview">Introduction to HTML overview</a>
                 <a class="nav-link" href="#Getting_Started_with_HTML">Getting started with HTML</a>
                 <a class="nav-link" href="#What's_in_the_head?_Metadata_in_HTML">What's in the head? Metadata in HTML</a>
@@ -19,10 +20,15 @@
                 <a class="nav-link" href="#Advanced_text_formatting">Advanced text formatting</a>
                 <a class="nav-link" href="#Document_and_website_structure">Document and website structure</a>
                 <a class="nav-link" href="#Debugging_HTML">Debugging HTML</a>
-                <a class="nav-link" href="#Reference">Reference</a>
             </div>
         </nav>
         <main id="main-doc">
+            <section id="Reference" class="main-section">
+                <header class="main-header">Reference</header>
+                <p>
+                    The documentation in this page is an abridged version of <a id="documentation-link" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">this documentation from MDN</a>. 
+                </p>
+            </section>
             <section id="Introduction_to_HTML_overview" class="main-section">
                 <header class="main-header">Introduction to HTML overview</header>
                 <span class="made-for">(Made for freeCodeCamp's technical documentation project)</span>
@@ -79,8 +85,7 @@ My cat is very grumpy
                 <h2>What is the HTML head?</h2>
                 <p>Let's revisit the simple <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#Anatomy_of_an_HTML_document">HTML document we covered in the previous article</a>:</p>
                 <code>
-<pre>                  
-<span class="gray-code">&lt;!DOCTYPE html&gt;</span>
+<pre><span class="gray-code">&lt;!DOCTYPE html&gt;</span>
   <span class="red-code">&lt;html&gt;</span>
     <span class="red-code">&lt;head&gt;</span>
       <span class="red-code">&lt;meta <span class="green-code">charset=</span><span class="blue-code">"utf-8"</span>&gt;</span>
@@ -89,8 +94,7 @@ My cat is very grumpy
   <span class="red-code">&lt;body&gt;</span>
     <span class="red-code">&lt;p&gt;</span>This is my page<span class="red-code">&lt;/p&gt;</span>
   <span class="red-code">&lt;/body&gt;</span>
- <span class="red-code">&lt;/html&gt;</span>
- </pre>
+ <span class="red-code">&lt;/html&gt;</span></pre>
                 </code>
                 <p>
                     The HTML head is the contents of the &lt;head&gt; element — unlike the contents of the &lt;body&gt; element (which are displayed on the page when loaded in a browser), the head's content is not displayed on the page. Instead, the head's job is to contain metadata about the document. In the above example, the head is quite small:
@@ -322,12 +326,6 @@ In drama, where a character shares a comment only with the audience for humorous
                 </ul>
                 <p>
                     HTML itself doesn't suffer from syntax errors because browsers parse it permissively, meaning that the page still displays even if there are syntax errors. Browsers have built-in rules to state how to interpret incorrectly written markup, so you'll get something running, even if it is not what you expected. This, of course, can still be a problem!
-                </p>
-            </section>
-            <section id="Reference" class="main-section">
-                <header class="main-header">Reference</header>
-                <p>
-                    The documentation in this page is an abridged version of <a id="documentation-link" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML">this documentation from MDN</a>. 
                 </p>
             </section>
         </main>
